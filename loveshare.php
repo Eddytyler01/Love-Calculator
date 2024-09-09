@@ -42,7 +42,7 @@ die();; } else {
 				<i class="fas fa-heart"></i> 
 			</h3>
 		</div>
-		<input type="submit" class="share" onclick="javascript:fbshareCurrentPage()" value="Share on Facebook" >
+		<a href=""><input type="submit" class="share" onclick="javascript:fbshareCurrentPage()" value="Share on Facebook" ></a>
 		<script language="javascript">
 			function fbshareCurrentPage()
 			{window.open("https://www.facebook.com/sharer/sharer.php?u="+escape(window.location.href)+"&t="+document.title, '', 
@@ -59,7 +59,7 @@ die();; } else {
 				Check More details from blue link bellow %0A
 				<?php echo $site_url;?>/loveshare.php?cnameone=<?php echo $cnameone;?>%26cnametwo=<?php echo $cnametwo;?>%26resulta=<?php echo $resulta;?>
 			">
-				<span> Share Via Whatsapp </span>
+				<a href=""> <span> Share Via Whatsapp </span> </a>
 		</a>
 		</p>
 		<div class="pages">
